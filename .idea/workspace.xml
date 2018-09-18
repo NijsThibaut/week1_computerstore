@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="73e939a2-284a-4d8a-ab3d-4d2d3b179f13" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/discord.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/be/pxl/computerstore/ComputerComponent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/be/pxl/computerstore/data/ComputerCase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/be/pxl/computerstore/hardware/Processor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/ComputerCaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/ComputerCaseTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="73e939a2-284a-4d8a-ab3d-4d2d3b179f13" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,11 +12,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ComputerComponent.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ComputerComponent.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/be/pxl/computerstore/ComputerComponent.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="447">
-              <caret line="64" column="88" selection-start-line="64" selection-start-column="88" selection-end-line="64" selection-end-column="88" />
+            <state relative-caret-position="1037">
+              <caret line="61" column="18" selection-start-line="61" selection-start-column="18" selection-end-line="61" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -40,7 +33,7 @@
       <file leaf-file-name="ComputerCase.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/be/pxl/computerstore/data/ComputerCase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
+            <state relative-caret-position="187">
               <caret line="14" selection-start-line="14" selection-end-line="14" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -60,8 +53,8 @@
       </file>
       <file leaf-file-name="computer_configurator.fxml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/be/pxl/computerstore/computer_configurator.fxml">
-          <provider editor-type-id="JavaFX-Scene-Builder" />
           <provider selected="true" editor-type-id="text-editor" />
+          <provider editor-type-id="JavaFX-Scene-Builder" />
         </entry>
       </file>
       <file leaf-file-name="ComputerComponentToStringTest.java" pinned="false" current-in-tab="false">
@@ -91,11 +84,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Processor.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Processor.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/be/pxl/computerstore/hardware/Processor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+            <state relative-caret-position="289">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
         </entry>
@@ -103,7 +96,7 @@
       <file leaf-file-name="ComputerConfiguratorController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/be/pxl/computerstore/gui/ComputerConfiguratorController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
+            <state relative-caret-position="68">
               <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
             </state>
           </provider>
@@ -152,6 +145,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="AndroidView" />
       <pane id="ProjectPane">
@@ -161,48 +155,10 @@
               <item name="week1_computerstore" type="b2602c69:ProjectViewProjectNode" />
               <item name="week1_computerstore" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="week1_computerstore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="week1_computerstore" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="week1_computerstore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="week1_computerstore" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="computerstore" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="week1_computerstore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="week1_computerstore" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="computerstore" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="week1_computerstore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="week1_computerstore" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="computerstore" type="462c0819:PsiDirectoryNode" />
-              <item name="gui" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="week1_computerstore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="week1_computerstore" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="computerstore" type="462c0819:PsiDirectoryNode" />
-              <item name="hardware" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="week1_computerstore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="week1_computerstore" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -308,18 +264,19 @@
       <workItem from="1537218097469" duration="604000" />
       <workItem from="1537222473162" duration="1085000" />
       <workItem from="1537270065127" duration="4471000" />
+      <workItem from="1537291347912" duration="988000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11815000" />
+    <option name="totallyTimeSpent" value="12803000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" visible="true" weight="0.32943678" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
@@ -345,6 +302,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32943678" />
+      <window_info anchor="bottom" id="Messages" order="7" visible="true" weight="0.32943678" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -386,8 +344,8 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/be/pxl/computerstore/computer_configurator.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
     <entry file="file://$PROJECT_DIR$/test/ComputerComponentToStringTest.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -658,8 +616,8 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/be/pxl/computerstore/computer_configurator.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/be/pxl/computerstore/ComputerSystemConfiguratorApp.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -691,7 +649,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/be/pxl/computerstore/data/ComputerCase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
+        <state relative-caret-position="187">
           <caret line="14" selection-start-line="14" selection-end-line="14" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -701,22 +659,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/be/pxl/computerstore/gui/ComputerConfiguratorController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
+        <state relative-caret-position="68">
           <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/be/pxl/computerstore/ComputerComponent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="447">
-          <caret line="64" column="88" selection-start-line="64" selection-start-column="88" selection-end-line="64" selection-end-column="88" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/be/pxl/computerstore/hardware/Processor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+        <state relative-caret-position="289">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/be/pxl/computerstore/ComputerComponent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1037">
+          <caret line="61" column="18" selection-start-line="61" selection-start-column="18" selection-end-line="61" selection-end-column="18" />
         </state>
       </provider>
     </entry>
