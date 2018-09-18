@@ -9,7 +9,7 @@ public class Processor extends ComputerComponent {
         super(vendor,name,price);
         this.clockspeed = clockspeed;
     }
-
+//test
     @Override
     public String getFullDescription() {
         return String.format(super.getFullDescription());
