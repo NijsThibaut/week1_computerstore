@@ -1,5 +1,6 @@
 package be.pxl.computerstore.gui;
 
+import be.pxl.computerstore.ComputerComponent;
 import be.pxl.computerstore.data.ComputerComponentTypes;
 import be.pxl.computerstore.data.Warehouse;
 import be.pxl.computerstore.util.TooManyPeripheralsException;
