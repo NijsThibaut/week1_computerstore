@@ -1,5 +1,7 @@
 package be.pxl.computerstore;
 
+
+
 public class ComputerComponent {
 
     private String vendor;

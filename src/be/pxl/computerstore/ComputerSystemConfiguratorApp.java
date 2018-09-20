@@ -1,6 +1,5 @@
 package be.pxl.computerstore;
 
-import be.pxl.computerstore.hardware.Processor;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
@@ -16,12 +15,19 @@ public class ComputerSystemConfiguratorApp extends Application {
 
 
     public void start(Stage primaryStage) throws Exception {
-        URL resource = getClass().getResource("be/pxl/computerstore/computer_configurator.fxml");
-        System.out.println(resource.toURI());
-        Parent root = FXMLLoader.load(resource);
-        Scene scene = new Scene(root, 650,550);
-        primaryStage.setTitle("Configure computer ...");
-        primaryStage.setScene(scene);
-        primaryStage.show();
+        try {
+            URL resource = getClass().getResource("/be/pxl/computerstore/computer_configurator.fxml");
+            System.out.println(resource.toURI());
+            Parent root = FXMLLoader.load(resource);
+            Scene scene = new Scene(root, 650,550);
+            primaryStage.setTitle("Configure computer ...");
+            primaryStage.setScene(scene);
+            primaryStage.show();
+        } catch (NullPointerException nex) {
+            System.out.println();
+            nex.printStackTrace();
+        }
+
+
     }
 }

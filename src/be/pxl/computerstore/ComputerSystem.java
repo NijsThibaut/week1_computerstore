@@ -14,6 +14,7 @@ public class ComputerSystem implements Computable {
     private Processor processor;
     public static final int MAX_PERIPHERAL = 3;
     private Peripheral[] peripherals = new Peripheral[3];
+    public int count;
 
     public ComputerSystem() {
 
@@ -26,6 +27,7 @@ public class ComputerSystem implements Computable {
             for(int i = 0; i < peripherals.length; i++) {
                 if(peripherals[i] == null) {
                     peripherals[i] = peripheral;
+                    count++;
                     break;
                 }
 
@@ -35,16 +37,17 @@ public class ComputerSystem implements Computable {
     }
 
     public void removePeripheral(String articleNumber) {
-        for (int i = 0; i < peripherals.length; i++) {
-            if(peripherals[i].getArticleNumber().equals(articleNumber)) {
+        for (int i = 0; i < MAX_PERIPHERAL; i++) {
+            if(peripherals[i] != null && peripherals[i].getArticleNumber().equals(articleNumber)) {
                 peripherals[i] = null;
+                count--;
                 break;
             }
         }
     }
 
     public int getNumberOfPeripherals() {
-        int count = 0;
+        count = 0;
         for (Peripheral obj : peripherals) {
             if (obj != null) {
                 count++;
@@ -88,8 +91,6 @@ public class ComputerSystem implements Computable {
         for (int i=0; i < peripherals.length; i++){
             if (peripherals[i] != null) {
                 total += peripherals[i].getPrice();
-            } else {
-                break;
             }
         }
         total += getProcessor().getPrice() + getComputerCase().getPrice();

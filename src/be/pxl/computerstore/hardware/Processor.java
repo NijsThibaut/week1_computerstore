@@ -25,6 +25,7 @@ public class Processor extends ComputerComponent {
 
     @Override
     public String getFullDescription() {
-        return String.format(super.getFullDescription() + "Clock speed = " + this.clockspeed + "GHz");
+        return String.format(super.getFullDescription() +
+                "Clock speed = " + this.clockspeed + "GHz");
     }
 }
