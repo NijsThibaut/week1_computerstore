@@ -1,6 +1,6 @@
 package be.pxl.computerstore.hardware.builder;
 
-import be.pxl.computerstore.hardware.ComputerCase;
+import be.pxl.computerstore.data.ComputerCase;
 import be.pxl.computerstore.util.Dimension;
 
 public class ComputerCaseBuilder {

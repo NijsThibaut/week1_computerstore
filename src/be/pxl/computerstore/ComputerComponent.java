@@ -62,7 +62,8 @@ public class ComputerComponent {
     public String getFullDescription() {
         return String.format("Articlenumber = %s%n" +
                              "Vendor = %s%n" +
-                             "Price = %s%n", getArticleNumber(), getVendor(), getPrice());
+                             "Name = %s%n" +
+                             "Price = %s%n", getArticleNumber(), getVendor(), getName() ,getPrice());
 
     }
 }

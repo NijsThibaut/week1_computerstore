@@ -3,8 +3,6 @@ package be.pxl.computerstore.data;
 import be.pxl.computerstore.ComputerComponent;
 import be.pxl.computerstore.util.Dimension;
 
-import java.util.Random;
-
 public class ComputerCase extends ComputerComponent {
 
     private Dimension dimension;
@@ -15,5 +13,28 @@ public class ComputerCase extends ComputerComponent {
 
     }
 
+    @Override
+    public String getFullDescription() {
+        return String.format(super.getFullDescription() +
+                            "Width = %d%n" +
+                            "Height = %d%n" +
+                            "Depth = %d%n" +
+                            "Weight = %d%n", dimension.getWidth(), dimension.getHeight(), dimension.getDepth(), this.weight);
+    }
 
+    public Dimension getDimension() {
+        return dimension;
+    }
+
+    public void setDimension(Dimension dimension) {
+        this.dimension = dimension;
+    }
+
+    public double getWeight() {
+        return weight;
+    }
+
+    public void setWeight(double weight) {
+        this.weight = weight;
+    }
 }

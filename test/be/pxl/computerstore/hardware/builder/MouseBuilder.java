@@ -1,6 +1,6 @@
 package be.pxl.computerstore.hardware.builder;
 
-import be.pxl.computerstore.hardware.Mouse;
+import be.pxl.computerstore.Peripherals.Mouse;
 
 public class MouseBuilder {
 	public static final String VENDOR = "Logitech";

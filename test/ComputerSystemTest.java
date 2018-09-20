@@ -1,3 +1,10 @@
+import be.pxl.computerstore.ComputerSystem;
+import be.pxl.computerstore.Peripherals.Mouse;
+import be.pxl.computerstore.data.ComputerCase;
+import be.pxl.computerstore.hardware.Processor;
+import be.pxl.computerstore.hardware.builder.ComputerCaseBuilder;
+import be.pxl.computerstore.hardware.builder.MouseBuilder;
+import be.pxl.computerstore.hardware.builder.ProcessorBuilder;
 import be.pxl.computerstore.util.TooManyPeripheralsException;
 import org.junit.Test;
 

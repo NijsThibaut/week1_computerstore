@@ -1,8 +1,13 @@
 package be.pxl.computerstore.gui;
 
 import be.pxl.computerstore.ComputerComponent;
+import be.pxl.computerstore.ComputerSystem;
+import be.pxl.computerstore.Peripherals.Peripheral;
+import be.pxl.computerstore.data.ComputerCase;
 import be.pxl.computerstore.data.ComputerComponentTypes;
 import be.pxl.computerstore.data.Warehouse;
+import be.pxl.computerstore.hardware.HardDisk;
+import be.pxl.computerstore.hardware.Processor;
 import be.pxl.computerstore.util.TooManyPeripheralsException;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
