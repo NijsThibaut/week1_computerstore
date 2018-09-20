@@ -7,11 +7,7 @@ public class Processor extends ComputerComponent {
     private final double MIN_CLOCKSPEED = 0.7;
     public Processor(String vendor, String name, double price, double clockspeed) {
         super(vendor,name,price);
-        if(clockspeed < MIN_CLOCKSPEED) {
-            this.clockspeed = MIN_CLOCKSPEED;
-        } else {
-            this.clockspeed = clockspeed;
-        }
+        setClockspeed(clockspeed);
     }
 
 
@@ -20,11 +16,15 @@ public class Processor extends ComputerComponent {
     }
 
     public void setClockspeed(double clockspeed) {
-        this.clockspeed = clockspeed;
+        if(clockspeed < MIN_CLOCKSPEED) {
+            this.clockspeed = MIN_CLOCKSPEED;
+        } else {
+            this.clockspeed = clockspeed;
+        }
     }
 
     @Override
     public String getFullDescription() {
-        return String.format(super.getFullDescription() + "Clock speed = " + this.clockspeed);
+        return String.format(super.getFullDescription() + "Clock speed = " + this.clockspeed + "GHz");
     }
 }

@@ -16,10 +16,10 @@ public class ComputerCase extends ComputerComponent {
     @Override
     public String getFullDescription() {
         return String.format(super.getFullDescription() +
-                            "Width = %d%n" +
-                            "Height = %d%n" +
-                            "Depth = %d%n" +
-                            "Weight = %d%n", dimension.getWidth(), dimension.getHeight(), dimension.getDepth(), this.weight);
+                            "Width = %dmm%n" +
+                            "Height = %dmm%n" +
+                            "Depth = %dmm%n" +
+                            "Weight = %fkg", dimension.getWidth(), dimension.getHeight(), dimension.getDepth(), this.weight);
     }
 
     public Dimension getDimension() {

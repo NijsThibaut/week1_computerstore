@@ -1,5 +1,6 @@
 package be.pxl.computerstore;
 
+import be.pxl.computerstore.hardware.Processor;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;

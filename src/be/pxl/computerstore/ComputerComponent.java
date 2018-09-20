@@ -17,9 +17,9 @@ public class ComputerComponent {
         setName(name);
         setPrice(price);
         if (vendor.length() < 3) {
-            setArticleNumber(String.format("%-3s-%0d", vendor.toUpperCase(), counter).replace(' ', 'X'));
+            setArticleNumber(String.format("%-3s-%05d", vendor.toUpperCase(), counter).replace(' ', 'X'));
         } else {
-            setArticleNumber(String.format("%-3s-%0d", vendor.substring(0,3).toUpperCase(), counter).replace(' ', 'X'));
+            setArticleNumber(String.format("%-3s-%05d", vendor.substring(0,3).toUpperCase(), counter).replace(' ', 'X'));
         }
     }
 
@@ -60,7 +60,7 @@ public class ComputerComponent {
     }
 
     public String getFullDescription() {
-        return String.format("Articlenumber = %s%n" +
+        return String.format("ArticleNumber = %s%n" +
                              "Vendor = %s%n" +
                              "Name = %s%n" +
                              "Price = %s%n", getArticleNumber(), getVendor(), getName() ,getPrice());

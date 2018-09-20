@@ -20,23 +20,25 @@ public class ComputerSystem implements Computable {
     }
 
     public void addPeripheral(Peripheral peripheral) throws TooManyPeripheralsException {
+       if(peripherals[0] != null && peripherals[1] != null && peripherals[2] != null) {
+            throw new TooManyPeripheralsException("Er zijn te veel Peripheral objecten");
+        } else {
+            for(int i = 0; i < peripherals.length; i++) {
+                if(peripherals[i] == null) {
+                    peripherals[i] = peripheral;
+                    break;
+                }
 
-        for(int i = 0; i < peripherals.length; i++) {
-            if(!(peripherals[0].equals(null) && peripherals[1].equals(null) && peripherals[2].equals(null))) {
-                throw new TooManyPeripheralsException("Er zijn te veel Peripheral objecten");
             }
-            if(peripherals[i] != null) {
-                peripherals[i] = peripheral;
-                break;
-            }
-
         }
+
     }
 
     public void removePeripheral(String articleNumber) {
         for (int i = 0; i < peripherals.length; i++) {
             if(peripherals[i].getArticleNumber().equals(articleNumber)) {
                 peripherals[i] = null;
+                break;
             }
         }
     }
@@ -82,12 +84,18 @@ public class ComputerSystem implements Computable {
 
     @Override
     public double totalPriceExcl() {
-
-        return 0;
+        double total = 0;
+        for (int i=0; i < peripherals.length; i++){
+            if (peripherals[i] != null) {
+                total += peripherals[i].getPrice();
+            } else {
+                break;
+            }
+        }
+        total += getProcessor().getPrice() + getComputerCase().getPrice();
+        return total;
     }
 
-    @Override
-    public double totalPriceIncl() {
-        return 0;
-    }
+
+
 }
