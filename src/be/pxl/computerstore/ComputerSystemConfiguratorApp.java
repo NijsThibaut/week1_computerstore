@@ -15,19 +15,13 @@ public class ComputerSystemConfiguratorApp extends Application {
 
 
     public void start(Stage primaryStage) throws Exception {
-        try {
-            URL resource = getClass().getResource("/be/pxl/computerstore/computer_configurator.fxml");
-            System.out.println(resource.toURI());
-            Parent root = FXMLLoader.load(resource);
-            Scene scene = new Scene(root, 650,550);
-            primaryStage.setTitle("Configure computer ...");
-            primaryStage.setScene(scene);
-            primaryStage.show();
-        } catch (NullPointerException nex) {
-            System.out.println();
-            nex.printStackTrace();
-        }
 
-
+        URL resource = getClass().getResource("/be/pxl/computerstore/computer_configurator.fxml");
+        System.out.println(resource.toURI());
+        Parent root = FXMLLoader.load(resource);
+        Scene scene = new Scene(root, 650,550);
+        primaryStage.setTitle("Configure computer ...");
+        primaryStage.setScene(scene);
+        primaryStage.show();
     }
 }
