@@ -15,7 +15,7 @@ public class ComputerSystemConfiguratorApp extends Application {
 
 
     public void start(Stage primaryStage) throws Exception {
-
+        //WERKT NIET
         URL resource = getClass().getResource("/be/pxl/computerstore/computer_configurator.fxml");
         System.out.println(resource.toURI());
         Parent root = FXMLLoader.load(resource);

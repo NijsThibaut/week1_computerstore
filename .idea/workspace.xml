@@ -1,14 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="73e939a2-284a-4d8a-ab3d-4d2d3b179f13" name="Default" comment="">
+    <list default="true" id="73e939a2-284a-4d8a-ab3d-4d2d3b179f13" name="Default" comment="update2 20/9&#10;2 failing tests">
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/week1_computerstore/be/ComputerCaseArticleNumberTest.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/be/pxl/computerstore/ComputerComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/be/pxl/computerstore/ComputerComponent.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/be/pxl/computerstore/ComputerSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/be/pxl/computerstore/ComputerSystem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/be/pxl/computerstore/ComputerSystemConfiguratorApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/be/pxl/computerstore/ComputerSystemConfiguratorApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/be/pxl/computerstore/Peripherals/GamingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/be/pxl/computerstore/Peripherals/GamingController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/be/pxl/computerstore/Peripherals/Keyboard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/be/pxl/computerstore/Peripherals/Keyboard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/be/pxl/computerstore/Peripherals/KeyboardLayout.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/be/pxl/computerstore/Peripherals/KeyboardLayout.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/be/pxl/computerstore/Peripherals/Monitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/be/pxl/computerstore/Peripherals/Monitor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/be/pxl/computerstore/Peripherals/Mouse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/be/pxl/computerstore/Peripherals/Mouse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/be/pxl/computerstore/Peripherals/Peripheral.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/be/pxl/computerstore/Peripherals/Peripheral.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/be/pxl/computerstore/Peripherals/WebCam.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/be/pxl/computerstore/Peripherals/WebCam.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/be/pxl/computerstore/computer_configurator.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/be/pxl/computerstore/computer_configurator.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/be/pxl/computerstore/data/ComputerCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/be/pxl/computerstore/data/ComputerCase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/be/pxl/computerstore/data/ComputerComponentTypes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/be/pxl/computerstore/data/ComputerComponentTypes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/be/pxl/computerstore/data/Warehouse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/be/pxl/computerstore/data/Warehouse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/be/pxl/computerstore/gui/ComputerConfiguratorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/be/pxl/computerstore/gui/ComputerConfiguratorController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/be/pxl/computerstore/hardware/HardDisk.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/be/pxl/computerstore/hardware/HardDisk.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/be/pxl/computerstore/hardware/Processor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/be/pxl/computerstore/hardware/Processor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/be/pxl/computerstore/util/Computable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/be/pxl/computerstore/util/Computable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/be/pxl/computerstore/util/Dimension.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/be/pxl/computerstore/util/Dimension.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/be/pxl/computerstore/util/TooManyPeripheralsException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/be/pxl/computerstore/util/TooManyPeripheralsException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/ComputerCaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/ComputerCaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/ComputerComponentFullDescriptionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/ComputerComponentFullDescriptionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/ComputerComponentToStringTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/ComputerComponentToStringTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/ComputerSystemComputableTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/ComputerSystemComputableTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/ComputerSystemTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/ComputerSystemTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/ProcessorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/ProcessorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/be/pxl/computerstore/hardware/builder/ComputerCaseBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/be/pxl/computerstore/hardware/builder/ComputerCaseBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/be/pxl/computerstore/hardware/builder/DimensionBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/be/pxl/computerstore/hardware/builder/DimensionBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/be/pxl/computerstore/hardware/builder/MouseBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/be/pxl/computerstore/hardware/builder/MouseBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/be/pxl/computerstore/hardware/builder/ProcessorBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/be/pxl/computerstore/hardware/builder/ProcessorBuilder.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,12 +48,87 @@
     <SUITE FILE_PATH="coverage/week1_computerstore$ComputerSystemComputableTest.ic" NAME="ComputerSystemComputableTest Coverage Results" MODIFIED="1537465385828" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="ComputerSystemConfiguratorApp.java" pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="ComputerSystemConfiguratorApp.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/be/pxl/computerstore/ComputerSystemConfiguratorApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="27" column="34" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
+            <state relative-caret-position="306">
+              <caret line="18" column="48" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="48" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ComputerCase.class" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/out/production/week1_computerstore/be/pxl/computerstore/data/ComputerCase.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-153">
+              <folding>
+                <element signature="e#0#1088#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ComputerCase.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/be/pxl/computerstore/data/ComputerCase.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="computer_configurator.fxml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/be/pxl/computerstore/computer_configurator.fxml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="87">
+              <caret line="10" column="69" selection-start-line="10" selection-start-column="69" selection-end-line="10" selection-end-column="69" />
+            </state>
+          </provider>
+          <provider editor-type-id="JavaFX-Scene-Builder" />
+        </entry>
+      </file>
+      <file leaf-file-name="ComputerSystem.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/be/pxl/computerstore/ComputerSystem.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="388">
+              <caret line="102" column="45" lean-forward="true" selection-start-line="102" selection-start-column="45" selection-end-line="102" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ComputerComponent.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/be/pxl/computerstore/ComputerComponent.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-34">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="computer_configurator.fxml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/out/production/week1_computerstore/be/pxl/computerstore/computer_configurator.fxml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="56" lean-forward="true" selection-start-line="10" selection-start-column="56" selection-end-line="10" selection-end-column="56" />
+            </state>
+          </provider>
+          <provider editor-type-id="JavaFX-Scene-Builder" />
+        </entry>
+      </file>
+      <file leaf-file-name="week1_computerstore.iml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/week1_computerstore.iml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="ComputerCaseArticleNumberTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/ComputerCaseArticleNumberTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -38,7 +139,7 @@
       <file leaf-file-name="ComputerConfiguratorController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/be/pxl/computerstore/gui/ComputerConfiguratorController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1064">
+            <state relative-caret-position="221">
               <caret line="32" column="6" selection-start-line="32" selection-start-column="6" selection-end-line="32" selection-end-column="6" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -80,13 +181,14 @@
         <option value="$PROJECT_DIR$/test/ComputerSystemTest.java" />
         <option value="$PROJECT_DIR$/test/ProcessorTest.java" />
         <option value="$PROJECT_DIR$/test/ComputerComponentFullDescriptionTest.java" />
-        <option value="$PROJECT_DIR$/src/be/pxl/computerstore/ComputerSystem.java" />
         <option value="$PROJECT_DIR$/test/ComputerSystemComputableTest.java" />
         <option value="$PROJECT_DIR$/src/be/pxl/computerstore/util/Computable.java" />
         <option value="$PROJECT_DIR$/src/be/pxl/computerstore/ComputerComponent.java" />
         <option value="$PROJECT_DIR$/src/be/pxl/computerstore/data/ComputerCase.java" />
         <option value="$PROJECT_DIR$/src/be/pxl/computerstore/hardware/Processor.java" />
         <option value="$PROJECT_DIR$/src/be/pxl/computerstore/ComputerSystemConfiguratorApp.java" />
+        <option value="$PROJECT_DIR$/src/be/pxl/computerstore/computer_configurator.fxml" />
+        <option value="$PROJECT_DIR$/src/be/pxl/computerstore/ComputerSystem.java" />
       </list>
     </option>
   </component>
@@ -110,6 +212,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -117,30 +222,17 @@
               <item name="week1_computerstore" type="b2602c69:ProjectViewProjectNode" />
               <item name="week1_computerstore" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="week1_computerstore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="week1_computerstore" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="week1_computerstore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="week1_computerstore" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="computerstore" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="hard wrap&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -152,6 +244,9 @@
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="be.pxl.computerstore" />
       <recent name="be.pxl.computerstore.hardware" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\nijst\IdeaProjects\week1_computerstore\out\production\week1_computerstore\be\pxl\computerstore" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\nijst\IdeaProjects\week1_computerstore\test" />
@@ -184,6 +279,23 @@
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
+    <configuration name="ComputerCaseArticleNumberTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="week1_computerstore" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ComputerCaseArticleNumberTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
     <configuration name="ComputerCaseArticleNumberTest.articleNumberStartsWithFirstThreeLettersOfVendor" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
       <module name="week1_computerstore" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -207,23 +319,6 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="ComputerCaseTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="ComputerComponentToStringTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="week1_computerstore" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ComputerComponentToStringTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -328,18 +423,18 @@
       <item itemvalue="JUnit.ComputerCaseTest" />
       <item itemvalue="JUnit.ComputerCaseArticleNumberTest.articleNumberStartsWithFirstThreeLettersOfVendor" />
       <item itemvalue="JUnit.ComputerSystemComputableTest" />
-      <item itemvalue="JUnit.ComputerComponentToStringTest" />
       <item itemvalue="JUnit.ComputerSystemTest" />
       <item itemvalue="JUnit.ProcessorTest" />
       <item itemvalue="Application.ComputerSystemConfiguratorApp" />
+      <item itemvalue="JUnit.ComputerCaseArticleNumberTest" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.ComputerSystemConfiguratorApp" />
+        <item itemvalue="JUnit.ComputerCaseArticleNumberTest" />
         <item itemvalue="JUnit.ProcessorTest" />
         <item itemvalue="JUnit.ComputerSystemTest" />
         <item itemvalue="JUnit.ComputerSystemComputableTest" />
-        <item itemvalue="JUnit.ComputerComponentToStringTest" />
       </list>
     </recent_temporary>
   </component>
@@ -369,6 +464,9 @@
       <workItem from="1537457412041" duration="389000" />
       <workItem from="1537462473303" duration="7150000" />
       <workItem from="1537481853855" duration="3356000" />
+      <workItem from="1537487230200" duration="223000" />
+      <workItem from="1537487485400" duration="52000" />
+      <workItem from="1537487606804" duration="1568000" />
     </task>
     <task id="LOCAL-00001" summary="testpush">
       <created>1537307397112</created>
@@ -402,43 +500,42 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ComputerComponentFullDescriptionTest_computerCaseFullDescriptionTest - 2018.09.21 at 00h 56m 44s.xml">
-      <configuration name="ComputerComponentFullDescriptionTest.computerCaseFullDescriptionTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ComputerComponentFullDescriptionTest_computerCaseFullDescriptionTest - 2018.09.21 at 00h 57m 10s.xml">
-      <configuration name="ComputerComponentFullDescriptionTest.computerCaseFullDescriptionTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ComputerComponentFullDescriptionTest_computerCaseFullDescriptionTest - 2018.09.21 at 00h 57m 28s.xml">
-      <configuration name="ComputerComponentFullDescriptionTest.computerCaseFullDescriptionTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ComputerCaseArticleNumberTest - 2018.09.21 at 00h 57m 42s.xml">
+    <history-entry file="ComputerCaseArticleNumberTest - 2018.09.21 at 01h 47m 27s.xml">
       <configuration name="ComputerCaseArticleNumberTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ComputerCaseTest - 2018.09.21 at 00h 57m 45s.xml">
+    <history-entry file="ComputerCaseTest - 2018.09.21 at 01h 47m 37s.xml">
       <configuration name="ComputerCaseTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ComputerComponentFullDescriptionTest - 2018.09.21 at 00h 57m 47s.xml">
+    <history-entry file="ComputerComponentFullDescriptionTest - 2018.09.21 at 01h 47m 52s.xml">
       <configuration name="ComputerComponentFullDescriptionTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ComputerComponentToStringTest - 2018.09.21 at 00h 57m 50s.xml">
+    <history-entry file="ComputerComponentToStringTest - 2018.09.21 at 01h 47m 54s.xml">
       <configuration name="ComputerComponentToStringTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ComputerSystemComputableTest - 2018.09.21 at 00h 57m 51s.xml">
+    <history-entry file="ComputerSystemComputableTest - 2018.09.21 at 01h 47m 57s.xml">
       <configuration name="ComputerSystemComputableTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ComputerSystemTest - 2018.09.21 at 00h 57m 54s.xml">
+    <history-entry file="ComputerSystemTest - 2018.09.21 at 01h 47m 59s.xml">
       <configuration name="ComputerSystemTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ProcessorTest - 2018.09.21 at 00h 57m 59s.xml">
+    <history-entry file="ProcessorTest - 2018.09.21 at 01h 48m 01s.xml">
       <configuration name="ProcessorTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProcessorTest - 2018.09.21 at 01h 48m 06s.xml">
+      <configuration name="ProcessorTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ComputerCaseArticleNumberTest - 2018.09.21 at 01h 51m 44s.xml">
+      <configuration name="ComputerCaseArticleNumberTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ComputerCaseArticleNumberTest - 2018.09.21 at 01h 54m 03s.xml">
+      <configuration name="ComputerCaseArticleNumberTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35019000" />
+    <option name="totallyTimeSpent" value="36862000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -450,11 +547,11 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32943678" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3995749" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.33793837" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16197917" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16197917" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -462,8 +559,8 @@
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4250797" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Coverage" order="4" side_tool="true" weight="0.3296875" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -490,18 +587,8 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/Desktop/test/ComputerCaseTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/be/pxl/computerstore/gui/ComputerConfiguratorController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/test/ComputerCaseArticleNumberTest.java" />
     <entry file="file://$USER_HOME$/Desktop/test/ProcessorTest.java" />
     <entry file="file://$USER_HOME$/Desktop/test/ComputerComponentToStringTest.java" />
-    <entry file="file://$PROJECT_DIR$/out/production/week1_computerstore/be/pxl/computerstore/computer_configurator.fxml" />
     <entry file="file://$USER_HOME$/Desktop/test/ComputerSystemComputableTest.java" />
     <entry file="file://$PROJECT_DIR$/src/be/pxl/computerstore/util/Dimension.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -575,27 +662,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/be/pxl/computerstore/computer_configurator.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/ComputerCaseArticleNumberTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -701,16 +767,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
           <caret line="79" column="28" lean-forward="true" selection-start-line="79" selection-start-column="28" selection-end-line="79" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/be/pxl/computerstore/ComputerSystem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="95" column="74" lean-forward="true" selection-start-line="95" selection-start-column="74" selection-end-line="95" selection-end-column="74" />
         </state>
       </provider>
     </entry>
@@ -725,9 +781,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -738,20 +791,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/be/pxl/computerstore/ComputerComponent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/ComputerComponentFullDescriptionTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="326">
           <caret line="32" column="94" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="94" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -759,16 +802,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
           <caret line="28" column="16" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/be/pxl/computerstore/data/ComputerCase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -781,7 +814,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/be/pxl/computerstore/gui/ComputerConfiguratorController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1064">
+        <state relative-caret-position="221">
           <caret line="32" column="6" selection-start-line="32" selection-start-column="6" selection-end-line="32" selection-end-column="6" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -796,13 +829,81 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/be/pxl/computerstore/ComputerSystemConfiguratorApp.java">
+    <entry file="file://$PROJECT_DIR$/out/production/week1_computerstore/be/pxl/computerstore/ComputerSystemConfiguratorApp.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="34" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
+        <state>
+          <folding>
+            <element signature="e#0#957#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/ComputerCaseArticleNumberTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week1_computerstore.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/production/week1_computerstore/be/pxl/computerstore/computer_configurator.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="56" lean-forward="true" selection-start-line="10" selection-start-column="56" selection-end-line="10" selection-end-column="56" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/be/pxl/computerstore/computer_configurator.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="10" column="69" selection-start-line="10" selection-start-column="69" selection-end-line="10" selection-end-column="69" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/be/pxl/computerstore/ComputerSystemConfiguratorApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="48" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/production/week1_computerstore/be/pxl/computerstore/data/ComputerCase.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-153">
+          <folding>
+            <element signature="e#0#1088#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/be/pxl/computerstore/data/ComputerCase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/be/pxl/computerstore/ComputerComponent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-34">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/be/pxl/computerstore/ComputerSystem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="388">
+          <caret line="102" column="45" lean-forward="true" selection-start-line="102" selection-start-column="45" selection-end-line="102" selection-end-column="45" />
         </state>
       </provider>
     </entry>

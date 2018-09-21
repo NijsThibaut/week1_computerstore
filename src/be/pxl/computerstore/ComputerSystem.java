@@ -13,7 +13,7 @@ public class ComputerSystem implements Computable {
     private HardDisk hardDisk;
     private Processor processor;
     public static final int MAX_PERIPHERAL = 3;
-    private Peripheral[] peripherals = new Peripheral[3];
+    private Peripheral[] peripherals = new Peripheral[MAX_PERIPHERAL];
     public int count;
 
     public ComputerSystem() {
@@ -93,7 +93,15 @@ public class ComputerSystem implements Computable {
                 total += peripherals[i].getPrice();
             }
         }
-        total += getProcessor().getPrice() + getComputerCase().getPrice();
+        if(getProcessor() != null) {
+            total += getProcessor().getPrice();
+        }
+        if(getComputerCase() != null) {
+            total += getComputerCase().getPrice();
+        }
+        if(getHardDisk() != null) {
+            total+= getHardDisk().getPrice();
+        }
         return total;
     }
 
